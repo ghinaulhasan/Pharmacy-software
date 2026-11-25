@@ -1,25 +1,45 @@
-<div align="center">
+# Pharmacy Management Pro
 
-# Pharmacy Software
-### Pharmacy management software project
+A browser-based pharmacy management dashboard concept for **AL HASNAIN MEDICAL CENTER**. The interface brings common pharmacy business indicators into one place with a responsive dashboard layout.
 
-![Software](https://img.shields.io/badge/Software-Management-123B67?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-</div>
+## Dashboard areas
 
-## Overview
-A pharmacy software project repository. Review the source files to explore the implemented modules, workflows and technology choices.
+The current page includes dashboard indicators and sections for:
 
-## Project Structure
-The repository contains the implementation and supporting project files. Setup steps depend on the included application framework and database configuration.
+- Total medicines and low-stock items
+- Receivables (due) and supplier payables
+- Near-expiry stock monitoring (45-day indicator)
+- Sales, purchases, profit, and invoices
+- Cost value, sale value, and potential profit
+- Light/dark theme styling
 
-## Getting Started
-1. Clone or download the repository.
-2. Open the project in the appropriate development environment.
-3. Review configuration and setup files before running the application.
+## Technology
 
-## Repository
-[Pharmacy-software](https://github.com/ghinaulhasan/Pharmacy-software)
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome icons
+- html2pdf.js library for PDF-related page functionality
 
----
-<div align="center">**Syed Ghina Ul Hassan** · Software Development</div>
+## Run locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ghinaulhasan/Pharmacy-software.git
+   cd Pharmacy-software
+   ```
+2. Open `index.html` in a modern browser.
+
+The page loads some libraries from CDNs, so an internet connection may be required for external assets.
+
+## Project note
+
+This repository currently contains a browser-based interface. Review the source code and configuration before using it for real pharmacy operations; a production deployment should have tested data storage, access control, backups, and regulatory checks.
+
+## Author
+
+**Syed Ghina Ul Hassan** · [GitHub](https://github.com/ghinaulhasan)
